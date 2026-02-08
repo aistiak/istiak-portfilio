@@ -2,6 +2,9 @@ import { extendTheme } from "@chakra-ui/react";
 import { mode } from "@chakra-ui/theme-tools"
 
 export const theme = extendTheme({
+  config: {
+    initialColorMode: "dark",
+  },
   fonts: {
     heading: "'Red Hat Display', sans-serif",
     body: "'Red Hat Text', sans-serif",
